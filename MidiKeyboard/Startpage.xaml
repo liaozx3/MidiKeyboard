@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MidiKeyboard.Startpage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MidiKeyboard"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid MinWidth="500">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/piano-keyboard-1427715038-hero-wide-0.jpg"/>
+        </Grid.Background>
+        <TextBlock Text="MUSIC KEYBOARD" Margin="186,101,146,0" FontSize="50" Height="72" FontFamily="Showcard Gothic" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFF9F9F9" />
+        <Button Name="StartGame" Content="PLAY" Click="StartGame_Click"  FontFamily="STXingkai" Width="128" FontSize="20" Background="#33000000" Height="51" HorizontalAlignment="Right" Margin="0,0,79,97" VerticalAlignment="Bottom"/>
+        <MediaElement Source="Assets/music.mp3" x:Name="mediaElement" VerticalAlignment="Center" HorizontalAlignment="Center" />
+    </Grid>
+</Page>
+

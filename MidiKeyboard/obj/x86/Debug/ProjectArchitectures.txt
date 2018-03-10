@@ -1,0 +1,1 @@
+E:\学习资料\大二下\现操\期中项目\MidiKeyboard\MidiKeyboard\MidiKeyboard.csproj;x86

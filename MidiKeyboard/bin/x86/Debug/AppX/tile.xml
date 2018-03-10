@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<tile>
+  <visual>
+
+    <binding template="TileSmall">
+        <text hint-style="caption">Piano</text>
+        <text hint-style="captionSubtle">Piano</text>
+        <image src="Assets/tile.jpg" placement="background"/>
+    </binding>
+
+    <binding template="TileMedium" displayName="MusicKeyboard">
+        <text hint-style="subtitle">Piano</text>
+        <text hint-style="subtitleSubtle">Piano</text>
+        <image src="Assets/tile.jpg" placement="background"/>
+    </binding>
+
+    <binding template="TileWide" displayName="MusicKeyboard" >
+        <text hint-style="title">Piano</text>
+        <text hint-style="subtitleSubtle">Piano</text>
+        <image src="Assets/tile.jpg" placement="background"/>
+    </binding>
+
+  </visual>
+</tile>
